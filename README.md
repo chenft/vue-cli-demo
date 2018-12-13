@@ -39,3 +39,8 @@ to: 必须是在 router 里配置的 path
 ```html
 <p>{{ $route.params.id }}</p>
 ```
+
+#### url 穿参数
+
+path: '/params/:newsId(\\d+)/:newsTitle'
+括号里是正则

@@ -3,7 +3,7 @@
     <p>{{ $route.name }}</p>
     <img src="./assets/logo.png">
     <router-link to="/"></router-link>
-    <router-link to="/params/198/jspang website is very good">params</router-link>
+    <router-link to="/params/111/jspang website is very good">params</router-link>
     <router-view></router-view>
     <!-- <router-view name="left" class="left"></router-view>
     <router-view name="right" class="right"></router-view>-->

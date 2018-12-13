@@ -7,12 +7,12 @@
 </template>
 <script>
 export default {
-  name: "params",
+  name: 'params',
   data() {
     return {
-      msg: "params page"
+      msg: 'params page',
     };
-  }
+  },
 };
 </script>
 <style scoped>

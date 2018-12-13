@@ -1,11 +1,11 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 import HelloWorld from '@/components/HelloWorld';
-import Hi from '@/components/Hi';
-import Hi1 from '@/components/hi/hi1';
-import Hi2 from '@/components/hi/hi2';
-import demo1 from '@/components/demo1';
-import demo2 from '@/components/demo2';
+// import Hi from '@/components/Hi';
+// import Hi1 from '@/components/hi/hi1';
+// import Hi2 from '@/components/hi/hi2';
+// import demo1 from '@/components/demo1';
+// import demo2 from '@/components/demo2';
 import Params from '@/components/params';
 
 Vue.use(Router);
