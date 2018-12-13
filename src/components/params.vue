@@ -13,6 +13,14 @@ export default {
       msg: 'params page',
     };
   },
+  beforeRouteEnter: (to, from, next) => {
+    console.log('准备进入路由模版');
+    next();
+  },
+  beforeRouteLeave: (to, from, next) => {
+    console.log('准备离开路由模版');
+    next();
+  },
 };
 </script>
 <style scoped>
